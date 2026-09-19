@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High-Performance Computing Course</title>
+    <style>
+        :root {
+            --primary: #0070f3;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --gray: #64748b;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+            color: var(--dark);
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e293b, var(--dark));
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            color: #94a3b8;
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 1rem auto 0;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        h2 {
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+            color: #1e293b;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        ul {
+            padding-left: 1.2rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--gray);
+            font-size: 0.9rem;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>High-Performance Computing</h1>
+        <p>Mastering parallel architectures, supercomputing clusters, and large-scale computational problem solving.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>🚀 Course Highlights</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Parallel Computing</h3>
+                    <p>Learn to divide complex problems into concurrent calculations across multicore processors.</p>
+                </div>
+                <div class="card">
+                    <h3>Cluster Architectures</h3>
+                    <p>Understand supercomputer node layouts, shared vs. distributed memory, and high-speed interconnects.</p>
+                </div>
+                <div class="card">
+                    <h3>Performance Tuning</h3>
+                    <p>Profile code bottlenecks, optimize cache utilization, and eliminate memory leaks for maximum speed.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>📚 Core Curriculum</h2>
+            <ul>
+                <li><strong>Introduction to Supercomputing:</strong> Hardware trends, Flynn's Taxonomy, and Moore's Law limitations.</li>
+                <li><strong>Shared Memory Programming:</strong> Multithreading concepts using <strong>OpenMP</strong>.</li>
+                <li><strong>Distributed Memory Systems:</strong> Message-passing paradigms using <strong>MPI</strong>.</li>
+                <li><strong>Accelerator Programming:</strong> Harnessing GPUs for massive parallelism using <strong>CUDA</strong>.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 HPC Learning Journey. Powered by Code & Clusters.</p>
+    </footer>
+
+</body>
+</html>
